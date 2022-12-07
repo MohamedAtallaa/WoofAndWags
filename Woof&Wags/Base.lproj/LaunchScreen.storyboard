@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fm6-3J-gjg">
+                                <rect key="frame" x="115" y="234" width="370" height="132"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OOz-Wl-qMq">
+                                        <rect key="frame" x="135" y="0.0" width="100" height="100"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pawprint" translatesAutoresizingMaskIntoConstraints="NO" id="uc8-Re-Wem">
+                                                <rect key="frame" x="15" y="15" width="70" height="70"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="70" id="e0d-cf-u0N"/>
+                                                    <constraint firstAttribute="width" secondItem="uc8-Re-Wem" secondAttribute="height" multiplier="1:1" id="mhO-m7-DnD"/>
+                                                </constraints>
+                                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="uc8-Re-Wem" firstAttribute="centerY" secondItem="OOz-Wl-qMq" secondAttribute="centerY" id="8np-gJ-Rxb"/>
+                                            <constraint firstAttribute="width" secondItem="OOz-Wl-qMq" secondAttribute="height" multiplier="1:1" id="94J-CT-rtK"/>
+                                            <constraint firstAttribute="height" constant="100" id="PPD-s9-rbK"/>
+                                            <constraint firstItem="uc8-Re-Wem" firstAttribute="centerX" secondItem="OOz-Wl-qMq" secondAttribute="centerX" id="wWw-Nf-5IW"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Woof&amp;Wags" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LC0-dN-eHT">
+                                        <rect key="frame" x="107" y="100" width="156" height="33"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                        <color key="textColor" red="0.26678803559999997" green="0.58571642639999999" blue="0.77331179380000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="LC0-dN-eHT" firstAttribute="top" secondItem="OOz-Wl-qMq" secondAttribute="bottom" id="DHN-fG-MBe"/>
+                                    <constraint firstItem="OOz-Wl-qMq" firstAttribute="top" secondItem="Fm6-3J-gjg" secondAttribute="top" id="Sgg-SI-os0"/>
+                                    <constraint firstItem="LC0-dN-eHT" firstAttribute="centerX" secondItem="Fm6-3J-gjg" secondAttribute="centerX" id="cFA-4s-yRC"/>
+                                    <constraint firstItem="OOz-Wl-qMq" firstAttribute="width" secondItem="OOz-Wl-qMq" secondAttribute="height" multiplier="1:1" id="iyA-gd-qYh"/>
+                                    <constraint firstItem="OOz-Wl-qMq" firstAttribute="centerX" secondItem="Fm6-3J-gjg" secondAttribute="centerX" id="uJf-DW-jyz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Fm6-3J-gjg" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.615385" id="GhV-ni-rhL"/>
+                            <constraint firstItem="Fm6-3J-gjg" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="PfM-Cq-O6S"/>
+                            <constraint firstItem="Fm6-3J-gjg" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Y2y-P7-uu3"/>
+                            <constraint firstItem="Fm6-3J-gjg" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.219194" id="cao-K6-8qM"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.307692307692307" y="374.64454976303318"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pawprint" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
