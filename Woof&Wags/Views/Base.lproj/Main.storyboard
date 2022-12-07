@@ -1205,12 +1205,6 @@
                                     <constraint firstItem="Fch-D5-iE6" firstAttribute="leading" secondItem="s8E-rw-VJp" secondAttribute="leading" constant="16" id="nYb-a0-7Ex"/>
                                 </constraints>
                             </view>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="SLK-0E-YkC">
-                                <rect key="frame" x="196.66666666666666" y="498.66666666666674" width="37" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="color" systemColor="tintColor"/>
-                            </activityIndicatorView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="zSQ-wo-nGY">
                                 <rect key="frame" x="0.0" y="137.33333333333331" width="430" height="725.66666666666674"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
@@ -1261,6 +1255,12 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="SLK-0E-YkC">
+                                <rect key="frame" x="196" y="498" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="color" systemColor="tintColor"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="di4-e3-FpB"/>
                         <color key="backgroundColor" systemColor="systemGray6Color"/>
