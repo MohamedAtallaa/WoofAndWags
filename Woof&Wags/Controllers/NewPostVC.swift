@@ -34,6 +34,11 @@ class NewPostVC: UIViewController {
                 let vc = self.storyboard?.instantiateViewController(withIdentifier: "MainTapBarVC")
                 self.present(vc!, animated: true)
             }
+        }else {
+            UIAlertController.alert(title: "Error", message: "You can't add comments! please Login first!", action1Title: "Login", action2Title: "Cancel", controller: self) {
+                let vc = self.storyboard?.instantiateViewController(withIdentifier: "LoginVC")
+                self.present(vc!, animated: true)
+            } handler2: { }
         }
     }
     
