@@ -11,29 +11,26 @@
 
 ## App Overview 
 ### - User can Register & Signin
-<img src="https://user-images.githubusercontent.com/100219531/206302604-8f5b9fab-6981-4624-b06f-fdad80c26948.png" width="300">  <img src="https://user-images.githubusercontent.com/100219531/206302604-8f5b9fab-6981-4624-b06f-fdad80c26948.png" width="300">
-
+<img src="https://user-images.githubusercontent.com/100219531/206313523-f8a008a7-440f-431a-ba65-bf31d103a36c.gif" width="300">
 
 
 ### - Update User Profile 
-<img src="https://user-images.githubusercontent.com/100219531/206305803-76751abd-d6d9-4a6a-b197-eab36c8a739b.png" width="300">
+<img src="https://user-images.githubusercontent.com/100219531/206314461-be4ed4d8-841a-43f8-b796-ee079f0a69b3.gif" width="300">
 
 
 ### - Add posts
-<img src="https://user-images.githubusercontent.com/100219531/206305897-01394ccd-da1c-48bf-8f88-e509c5d84fe3.png" width="300">  <img src="https://user-images.githubusercontent.com/100219531/206305944-c139719e-bd7e-454e-829f-a6f26925c00a.png" width="300">
-
+<img src="https://user-images.githubusercontent.com/100219531/206315410-ba5bdec6-c9b5-4456-8274-60e12d4039d9.gif" width="300">
 
 
 ### - Add Comments
-<img src="https://user-images.githubusercontent.com/100219531/206306033-49842f8c-40c2-4e8d-9a0c-6c4cf89e87bb.png" width="300">
+<img src="https://user-images.githubusercontent.com/100219531/206315925-4ee3c510-2dd3-4961-b853-ea1e42235a5d.gif" width="300">
 
 
 ### - Get Posts by Tags
-<img src="https://user-images.githubusercontent.com/100219531/206306056-4ce8058f-0acd-4fd1-9e55-1dbed721c683.png" width="300">  <img src="https://user-images.githubusercontent.com/100219531/206306106-2841982f-cf95-4e89-8aa8-f35a7792718a.png" width="300">
-
+<img src="https://user-images.githubusercontent.com/100219531/206316428-add56f8b-b5b0-446c-9a5b-bdd9e0245dcd.gif" width="300">
 
 
 ### - Skip the login step (user can't add posts or comments)
-<img src="https://user-images.githubusercontent.com/100219531/206306220-7f444099-9bda-4c39-92f3-f2aa340735f3.png" width="300">
+<img src="https://user-images.githubusercontent.com/100219531/206317367-f969f0e4-d463-4ff0-a116-6b7b8a5d959b.gif" width="300">
 
 
