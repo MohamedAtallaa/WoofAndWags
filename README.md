@@ -1,7 +1,7 @@
-# Woof & Wags  <img src="https://user-images.githubusercontent.com/100219531/206309075-8989f5fb-0b26-4063-b17d-fe04d5448fb4.png" width="50">
+# Woof&Wags  <img src="https://user-images.githubusercontent.com/100219531/206309075-8989f5fb-0b26-4063-b17d-fe04d5448fb4.png" width="50">
 
 
-### Concepts I used for Coding WoofAndWags App  
+### Concepts I used for Coding Woof&Wags App  
 - Networking.
 - TableView & CollectionView.
 - Handling button tap inside UITableView Cell using delegation.
