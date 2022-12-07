@@ -20,9 +20,6 @@ class LoginVC: UIViewController {
     // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        firstNameTextField.text = "Mohamed"
-        lastNameTextField.text = "Atallah"
     }
     
     // MARK: - Methods
