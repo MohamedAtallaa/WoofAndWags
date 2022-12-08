@@ -10,7 +10,7 @@
 
 
 ## App Overview 
-### - User can Register & Signin
+### - User can Register & Login
 <img src="https://user-images.githubusercontent.com/100219531/206313523-f8a008a7-440f-431a-ba65-bf31d103a36c.gif" width="300">
 
 
