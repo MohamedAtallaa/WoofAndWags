@@ -41,7 +41,6 @@ class TagVC: UIViewController {
     
     // MARK: - Actions
     
-    
 }
 
 
@@ -51,8 +50,8 @@ class TagVC: UIViewController {
 extension TagVC: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return tags.count
-        
     }
+
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell =  collectionView.dequeueReusableCell(withReuseIdentifier: "TagCell", for: indexPath) as! TagCell
         cell.tagNameLabel.text = tags[indexPath.row]
@@ -60,7 +59,6 @@ extension TagVC: UICollectionViewDataSource {
         return cell
     }
 }
-
 
 // MARK: UITableViewDelegate
 extension TagVC: UICollectionViewDelegate {
@@ -70,5 +68,3 @@ extension TagVC: UICollectionViewDelegate {
         self.present(vc, animated: true)
     }
 }
-
-
